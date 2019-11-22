@@ -172,7 +172,7 @@ int main(int, char**)
     if(!camera.isOpened())  // check if we succeeded
         return -1;
 
-    const string NAME = "./output1.avi";   // Form the new name with container
+    const string NAME = "./output.avi";   // Form the new name with container
     int ex = static_cast<int>(CV_FOURCC('M','J','P','G'));
 	uint HEIGHT = camera.get(CV_CAP_PROP_FRAME_HEIGHT);
 	uint WIDTH = camera.get(CV_CAP_PROP_FRAME_WIDTH);
